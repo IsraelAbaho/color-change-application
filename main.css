@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: #e8ecf1;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #4b4b4a;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.container {
+  width: 70%;
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10rem auto;
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.container .title {
+  font-size: 20px;
+  margin: 2rem 0;
+}
+
+.container .colors {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .colors div {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.container .colors div:hover {
+  opacity: 0.5;
+}
+
+.container .colors div.active {
+  border-radius: 50%;
+}
+
+.container .main {
+  width: 300px;
+  height: 50px;
+  padding: 1rem;
+  background: aqua;
+  text-align: center;
+  font-size: 20px;
+}
+
+small {
+  text-align: center;
+  font-style: italic;
+  display: block;
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */
